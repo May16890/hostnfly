@@ -1,0 +1,106 @@
+.Footer {
+  background: #9B9B9B;
+  padding-left: 32px;
+  @include for-size(tablet-portrait-up) {
+    padding: 0;
+  }
+
+&-logoContainer {
+    padding-top: 50px;
+    width: 336px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 40px;
+    @include for-size(tablet-portrait-up) {
+      padding-top: 20px;
+      justify-content: space-between;
+      padding-bottom: 55px;
+      margin-left: 830px;
+      align-items: end;
+      width: 100%;
+    }
+  }
+
+&-line {
+  width: 336px;
+  height: 1.5px;
+  background: grey;
+  margin-top: 32px;
+  @include for-size(tablet-portrait-up) {
+    display: none;
+  }
+}
+&-entrepriseLogo {
+  margin: 44px 0px 27px 0px;
+  width: 159px;
+  height: 36px;
+  text-align: left;
+  @include for-size(tablet-portrait-up) {
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+}
+
+&-Content {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.8;
+  margin:0 24px 37px 0;
+  font-weight: lighter;
+}
+
+&-title {
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-top: 10
+}
+
+&-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.8;
+  cursor: pointer;
+}
+&-title-2 {
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  @include for-size(tablet-portrait-up) {
+    padding-top: 5px;
+    margin-top: 0;
+  }
+}
+
+&-title-3 {
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+&-title-4 {
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 35px;
+  }
+}
+.list {
+  @include for-size(tablet-portrait-up) {
+    padding: 0;
+    width: 200px;
+    margin: 0;
+  }
+}
+.listContainer {
+  @include for-size(tablet-portrait-up) {
+    display: flex;
+  margin-right: 400px;
+  }
+}

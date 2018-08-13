@@ -1,0 +1,80 @@
+.Terms {
+    padding: 51px 0;
+    color: #fff;
+    position: relative;
+    @include for-size(tablet-portrait-up) {
+    padding: 0px;
+    text-align: center;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url('../img/bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  &-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 13px;
+    margin: 0;
+    width: 100%;
+    @include for-size(tablet-portrait-up) {
+    font-size: 16px;
+    }
+  }
+
+  &-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 24px;
+    @include for-size(tablet-portrait-up) {
+      text-align: center;
+      width: 190px;
+      margin-left: -27px;
+    }
+  }
+  &-imgBackground{
+  width: 100%;
+  background-size: cover;
+  }
+  &-imgContainer {
+    @include for-size(tablet-portrait-up) {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
+    }
+  }
+  &-img {
+    width: 110px;
+    height: 110px;
+  }
+  &-item{
+    margin-top: 38px;
+    @include for-size(tablet-portrait-up) {
+    margin: 10px 70px 40px 70px;
+    }
+  }
+}
+
+.Terms-item .reverse {
+  width: 100%;
+  text-align: right;
+  @include for-size(tablet-portrait-up) {
+  text-align: center;
+  }
+}
+.mobileLeft{
+  @include for-size(tablet-portrait-up) {
+  text-align: center;
+    }
+  }

@@ -1,0 +1,30 @@
+.Sponsor{
+  background: #eaeaea;
+  padding: 51px 0;
+  @include for-size(tablet-portrait-up) {
+    padding: 80px 0;
+  }
+  &-img{
+    width: 60px;
+    height: 43px;
+    @include for-size(tablet-portrait-up) {
+      width: 110px;
+      height: 77px;
+    }
+  }
+}
+
+.col-xs-3 {
+  flex-basis: 25%;
+  max-width: 25%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.around-xs {
+  @include for-size(tablet-portrait-up) {
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 20px;
+  }
+}
